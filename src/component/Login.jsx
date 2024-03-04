@@ -12,7 +12,7 @@ function Login(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('https://crazy-tuna-garters.cyclic.app/signin',{email,password})
+        axios.post('https://ill-plum-panther-sari.cyclic.app/users/signin',{email,password})
         .then((result)=>{
             console.log(result)
             const { token } = result.data;

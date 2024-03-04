@@ -36,7 +36,7 @@ function CreateArea({ onAdd }) {
       // userId: userId
     };
   
-    axios.post("https://crazy-tuna-garters.cyclic.app/note/", {
+    axios.post("https://ill-plum-panther-sari.cyclic.app/note/", {
       title: note.title,
       description: note.description
     }, {

@@ -11,7 +11,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('https://crazy-tuna-garters.cyclic.app/signup',{username, email,password})
+        axios.post('https://ill-plum-panther-sari.cyclic.app/users/signup',{username, email,password})
         .then((result)=>{
             console.log(result)
             navigate('/login')
